@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style_signup.css">
+    <script src="signup.js"></script>
+</head>
+<body>
+    <div class = "main">
+        <div class = "box1">
+            <div class = "formbox">
+                <div class = "form1">
+                    <form id = "signupform" action = "">
+                        <label for="firstname">First Name:</label><br>
+                        <input type="text" id="firstname" name="firstname" required><br>
+                        
+                        <label for="lastname">Last Name:</label><br>
+                        <input type="text" id="lastname" name="lastname" required><br>
+                    
+                        <label for="sex" id = "sexlabel">Sex:</label><br>
+                        
+                        <input type="radio" id="male" name="sex" value="male" required>
+                        <label for="male" id ="sexl">Male</label>
+                        <input type="radio" id="female" name="sex" value="female" required>
+                        <label for="female" id ="sexl">Female</label>
+                        <input type="radio" id="prefernot" name="sex" value="prefernot" required>
+                        <label for="prefernot" id ="sexl">Prefer Not to Say</label><br>
+        
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+        
+                        <label for="contact">Contact Number:</label><br>
+                        <input type="tel" id="contact" name="contact"><br>
+        
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset" onclick = "formReset()">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class = "box2">
+            <div class = "headercontent">
+                <img src = "images/unicef.png">
+                <header>HELP CREATE A BETTER FUTURE FOR CHILDREN</header>
+            </div>
+            <div class = "textcontent">
+                <p id = "title">"I believe that every child deserves the opportunity to live, thrive, and reach their full potential. Because of their lack of access to fundamental rights, vulnerable children desperately needs our urgent assistance. UNICEF is a leading organization that provides lifesaving aid to children in need all around the world. Their presence in over 190 countries allow them to make a difference in the lives of millions of children, whether they are affected by conflict, natural disasters, poverty, or disease. Thus, by supporting UNICEF, I am helping to ensure that children have access to necessities like healthcare, nutrition, education, etc. Join us in transforming the lives of children and making a lasting difference today! "</p>
+            </div>
+            </div>
+    </div>
+	
+</body>
+</html>
